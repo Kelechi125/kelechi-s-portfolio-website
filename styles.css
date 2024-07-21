@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 2px solid gray;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    margin: 20px;
+}
+
+#about-me {
+    margin-top: 50px;
+    border-bottom: 2px solid gray;
+}
+
+#about-me img {
+    border-radius: 50%;
+}
